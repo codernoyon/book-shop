@@ -1,0 +1,137 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo{
+    width: 160px;
+}
+
+.custom-btn{
+    background: #6946F4;
+    color: #fff !important;
+    border: 1px solid #6946F4;
+}
+
+.custom-btn:hover{
+    background: #fff;
+    color: #6946F4 !important;
+    border: 1px solid #6946F4;
+}
+
+.cb-2{
+    border-radius: 0px 5px 5px 0px;
+}
+
+.navbar-nav li a{
+    color: #000  !important;
+    font-weight: 500;
+
+}
+
+.navbar-nav li a:hover{
+    color:#6946F4 !important;
+}
+
+.in-txt{
+    background: #F1F1F1;
+}
+
+.price-box h3{
+    color: #6946F4;
+}
+
+.child-book{
+    border-radius: 5px;
+    transition: .5s;
+}
+
+.child-book:hover{
+    box-shadow: 0px 3px 10px lightgray !important;
+}
+
+.book-img{
+    background: #F1F1F1;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.footer{
+    background: #F1F1F1;
+}
+
+
+/* login page and create account page */
+
+.login-box{
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 50px;
+}
+
+.form input[type='text'], input[type='password']{
+    border-bottom: 1px solid lightgray !important;
+    border-radius: 0px !important;
+}
+
+.other-way h6{
+    position: relative;
+}
+
+.other-way h6::before{
+    content: "";
+    position: absolute;
+    left: 28%;
+    top: 10px;
+    background: lightgray;
+    width: 36%;
+    height: 1px;
+    transform: translateX(-50%);
+}
+
+.other-way h6::after{
+    content: "";
+    position: absolute;
+    right: -8%;
+    top: 10px;
+    background: lightgray;
+    width: 36%;
+    height: 1px;
+    transform: translateX(-50%);
+}
+
+.s-box{
+    border: 1px solid lightgray;
+    border-radius: 50px;
+    padding: 0px 5px;
+
+}
+
+.s-box a{
+    text-decoration: none;
+    color: #000;
+}
+
+
+
+/* admin page */
+
+.admin-nav{
+    background: #19103F;
+}
+
+.admin-nav li a{
+    color: #fff !important;
+    text-decoration: none;
+}
+
+.admin-nav li a:hover{
+    color: #fff !important;
+}
+   
+.admin-nav li:hover{
+    background: #2F216A !important;
+}
+
+.admin-home, .manage-home{
+    background: #f4f7fc;
+}

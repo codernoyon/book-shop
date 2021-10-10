@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="../css/all.min.css">
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- aos amimation css -->
+    <link rel="stylesheet" href="../css/aos.css">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <!-- header start -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white py-3 fixed-top shadow-sm">
+            <div class="container">
+                <a class="navbar-brand text-white m-0" href="../index.html"><img src="../img/icons/Logo.png" alt="" class="logo"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+               <i class="fas fa-bars"></i>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item me-lg-4">
+                    <a class="nav-link" href="../index.html">Home</a>
+                  </li>
+                  <li class="nav-item me-lg-4">
+                    <a class="nav-link" href="">Orders</a>
+                  </li>
+                  <li class="nav-item me-lg-4">
+                    <a class="nav-link" href="#">Admin</a>
+                  </li>
+                  <li class="nav-item me-lg-4">
+                    <a class="nav-link" href="#">Deals</a>
+                  </li>
+                </ul>
+              </div>
+          </nav>
+    </header>
+    <!-- header end -->
+    <!-- login box start-->
+    <section class="login-area py-5 mt-5">
+        <div class="container pt-5">
+            <div class="row justify-content-center px-3 px-md-0">
+                <div class="col-md-8 col-lg-6">
+                    <div class="login-box my-3">
+                        <h3 class="mb-3">Login</h3>
+                        <form action="" class="form">
+                            <input placeholder="Username Or Email" class="form-control border-0 mb-4 px-0" type="text" name="username" id="">
+                            <input placeholder="Password" class="form-control border-0 mb-4 px-0" type="password" name="username" id="">
+                            <div class="d-flex justify-content-between mb-4">
+                                <div class="ck-box">
+                                    <input class="me-2" type="checkbox" name="" id="">
+                                    <label for="remember">Remember Me</label>
+                                </div>
+                                <a href="#">Forget Password</a>
+                            </div>
+                            <a class="form-control custom-btn btn mb-4" href="../pages/after-login.html">Login</a>
+                        </form>
+                        <div class="d-flex justify-content-center">
+                            <p class="m-0">Don't have an account?</p>
+                            <a href="./create-account.html">Create an account</a>
+                        </div>  
+                    </div>
+                    <div class="other-way">
+                      <h6 class="text-center mb-3">Or</h6>
+                      <div class="px-5">
+                        <div class="s-box d-flex align-items-center mb-3 py-1">
+                          <a href="#"><img class="w-75" src="../img/icons/facebook.svg" alt=""></a>
+                          <a class="ms-4 ms-md-5 ps-md-4" href="#">Continue with Facebook</a>
+                        </div>
+                        <div class="s-box d-flex align-items-center py-1">
+                          <a href="#"><img class="w-75" src="../img/icons/google.svg" alt=""></a>
+                          <a class="ms-4 ms-md-5 ps-md-4" href="#">Continue with Google</a>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- login box end -->
+
+    <!-- bootstrap js -->
+    <script src="../js/bootstrap.min.js"></script>
+    <!-- aos animation js -->
+    <script src="../js/aos.js"></script>
+</body>
+</html>
